@@ -48,7 +48,7 @@
 
 .header__logo {
   margin-block-end: 20px;
-  font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  font-size: clamp(3.063rem, 2.71rem + 1.502vw, 4.063rem);
 }
 
 .header__title {
@@ -378,21 +378,24 @@ button:disabled::before {
 
 @media (width <= 375px) {
   .page {
-    inline-size: 100%;
+    inline-size: calc(100% - 4px);
     margin-inline: 0;
   }
 
   .header {
-    inline-size: calc(100% - 4px);
-    margin-block-end: 103px;
+    padding-inline: 0;
   }
 
   .header__logo {
-    font-size: clamp(2.5rem, -0.7727rem + 16.3636vw, 3.0625rem);
+    font-size: clamp(2.188rem, -1.313rem + 18.667vw, 3.063rem);
   }
 
   .content {
-    inline-size: calc(100% - 4px);
+    inline-size: 100%;
+  } 
+
+  .footer {
+    margin-inline: 35px;
   }
 
   .floppy {
