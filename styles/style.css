@@ -151,7 +151,6 @@ button:disabled::before {
 
 .content__container-image {
   position: relative;
-  outline: 2px solid var(--basic-color);
 }
 
 .content__image {
@@ -407,3 +406,4 @@ button:disabled::before {
   }
 
 }
+
