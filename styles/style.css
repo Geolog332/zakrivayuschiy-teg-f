@@ -23,7 +23,7 @@
   margin-inline: clamp(0.125rem, 34.774vw - 8.047rem, 23.25rem);
   margin-block: 102px;
   font-family: var(--basic-font), sans-serif;
-  font-variation-settings: var(--font-weight-basic);
+  font-variation-settings: 'wght' var(--font-weight-basic);
   color: var(--basic-color);
   background-color: var(--bg-color);
   background-image: var(--bg-image);
@@ -145,7 +145,7 @@ button:disabled::before {
   inline-size: 100%;
   padding: 5px 10px;
   font-size: var(--font-size-max);
-  font-variation-settings: var(--font-weight-title);
+  font-variation-settings: 'wght' var(--font-weight-title);
   outline: 2px solid var(--basic-color);
 }
 
