@@ -151,6 +151,7 @@ button:disabled::before {
 
 .content__container-image {
   position: relative;
+  outline: 2px solid var(--basic-color);
 }
 
 .content__image {
@@ -272,9 +273,13 @@ button:disabled::before {
 
 .accent-text-button:focus {
   outline: none;
+}
+
+.accent-text-button:focus-visible {
   box-shadow: 2px 2px 0 var(--basic-color);
   transition: box-shadow 0.3s ease;
 }
+
 
 .button__text {
   position: relative;
@@ -388,10 +393,6 @@ button:disabled::before {
 
   .content {
     inline-size: calc(100% - 4px);
-  }
-
-  .footer {
-    margin-inline: 35px;
   }
 
   .floppy {
