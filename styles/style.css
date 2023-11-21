@@ -15,7 +15,6 @@
 */
 
 .page {
-  min-inline-size: 320px;
   min-block-size: 100dvb;
   display: flex;
   flex-direction: column;
@@ -378,12 +377,11 @@ button:disabled::before {
 
 @media (width <= 375px) {
   .page {
-    inline-size: calc(100% - 4px);
     margin-inline: 0;
   }
 
   .header {
-    padding-inline: 0;
+    margin-inline: 0;
   }
 
   .header__logo {
