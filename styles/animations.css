@@ -13,6 +13,17 @@
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
 
+
+@keyframes marker {
+  from {
+    left: -20px;
+  }
+
+  to {
+    left: -16px;
+  }
+}
+
 .main-body {
   fill: transparent;
   transition: fill 0.1s linear;

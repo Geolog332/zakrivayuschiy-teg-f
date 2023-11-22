@@ -3,27 +3,27 @@
 :root {
   --basic-font: Inter;
   --accent-font: PressStart2P;
-  --font-weight-title: 700;
-  --font-weight-basic: 400;
+  --font-weight-title: 785;
+  --font-weight-basic: 465;
   --font-size-min: 14px;
   --font-size-max: 18px;
-  --basic-color: #000;
-  --color-shadow: #fff;
-  --color-button: #fff;
+  --basic-color: #00cc14;
+  --color-shadow: #000;
+  --color-button: #00cc14;
   --heart-color: #ff0000;
-  --bg-color: #fff;
+  --bg-color: #000;
   --bg-image: repeating-linear-gradient(
       to right,
-      #d3d3d3 0,
-      #d3d3d3 2px,
+      #000 0,
+      #000 2px,
       transparent 2px,
       transparent 4px
     ),
     repeating-linear-gradient(
-      #d3d3d3 0,
-      #d3d3d3 2px,
+      #000 0,
+      #000 2px,
       transparent 2px,
       transparent 4px
     ),
-    linear-gradient(#e7e7e7, #e7e7e7 0.01%, #1a1a1a 100%);
+    linear-gradient(#007f0c, #004306);
 }
